@@ -75,7 +75,7 @@ class ChatRoom extends Base
             throw new YunXinArgExcetption('聊天室名称不能为空！');
         }
         if (strlen($name) > self::CHAT_ROOM_NAME_LIMIT) {
-            throw new YunXinArgExcetption('聊天室公告超过限制！');
+            throw new YunXinArgExcetption('聊天室名称超过限制！');
         }
         if (strlen($announcement) > self::CHAT_ROOM_ANNOUNCEMENT_LIMIT) {
             throw new YunXinArgExcetption('聊天室公告超过限制！');
@@ -169,7 +169,7 @@ class ChatRoom extends Base
             throw new YunXinArgExcetption('房间id不合法！');
         }
         if (strlen($name) > self::CHAT_ROOM_NAME_LIMIT) {
-            throw new YunXinArgExcetption('聊天室公告超过限制！');
+            throw new YunXinArgExcetption('聊天室名称超过限制！');
         }
         if (strlen($announcement) > self::CHAT_ROOM_ANNOUNCEMENT_LIMIT) {
             throw new YunXinArgExcetption('聊天室公告超过限制！');
