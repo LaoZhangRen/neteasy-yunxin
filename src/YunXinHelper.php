@@ -6,7 +6,7 @@
  * Time: 下午2:16
  */
 
-namespace Pinkong\YunXin;
+namespace LaoZhangRen\YunXin;
 
 use Illuminate\Support\Facades\Facade;
 

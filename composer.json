@@ -1,5 +1,5 @@
 {
-    "name": "pinkong/neteasy-yunxin",
+    "name": "laozhangren/neteasy-yunxin",
     "description": "网易云信服务端sdk for laravel/lumen",
     "authors": [
         {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Pinkong\\YunXin\\": "src/"
+            "LaoZhangRen\\YunXin\\": "src/"
         }
     }
 }

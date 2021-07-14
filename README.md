@@ -1,14 +1,15 @@
 # neteasy-yunxin
 
 ---
-[网易云信](https://www.163yun.com/help/documents/18132200658681856) 服务端sdk for Laravel5 / Lumen. based on [salamander-mh/YunXinHelper](https://github.com/salamander-mh/YunXinHelper).
+[网易云信](https://www.163yun.com/help/documents/18132200658681856) 服务端sdk for Laravel6 / Lumen. based on [laozhangren/neteasy-yunxin](https://github.com/PINKONG/neteasy-yunxin).
+在此包基础上修复了一些小东西，仅在laravel6中测试可用
 
 ## Installation
 
 Require this package with composer by using the following command:
 
 ```
-$ composer require pinkong/neteasy-yunxin
+$ composer require laozhangren/neteasy-yunxin
 ```
 
 Then, add the service provider:
@@ -18,7 +19,7 @@ If you are using Laravel, add the service provider to the providers array in `co
 ```php
 [
     'providers' => [
-        Pinkong\YunXin\YunXinServiceProvider::class,
+        LaoZhangRen\YunXin\YunXinServiceProvider::class,
     ],
 ]
 ```
@@ -26,7 +27,7 @@ If you are using Laravel, add the service provider to the providers array in `co
 as optional, you can use facade:
 ```php
     'aliases' => [
-        'YunXinHelper' => Pinkong\YunXin\YunXinHelper::class,
+        'YunXinHelper' => LaoZhangRen\YunXin\YunXinHelper::class,
     ],
 
 ```
@@ -34,7 +35,7 @@ as optional, you can use facade:
 If you are using Lumen, append the following code to `bootstrap/app.php`:
 
 ```php
-$app->register(Pinkong\YunXin\YunXinServiceProvider::class);
+$app->register(LaoZhangRen\YunXin\YunXinServiceProvider::class);
 ```
 
 
@@ -43,7 +44,7 @@ $app->register(Pinkong\YunXin\YunXinServiceProvider::class);
 The defaults are set in config/yunxin.php. Copy this file to your own config directory to modify the values. You can publish the config using this command:
 
 ```php
-php artisan vendor:publish --provider="Pinkong\YunXin\YunXinServiceProvider"
+php artisan vendor:publish --provider="LaoZhangRen\YunXin\YunXinServiceProvider"
 
 ```
 

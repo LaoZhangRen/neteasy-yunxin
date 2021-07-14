@@ -1,10 +1,10 @@
 <?php
-namespace Pinkong\YunXin;
+namespace LaoZhangRen\YunXin;
 
 
-use Pinkong\YunXin\Api\Chat;
-use Pinkong\YunXin\Api\ChatRoom;
-use Pinkong\YunXin\Api\User;
+use LaoZhangRen\YunXin\Api\Chat;
+use LaoZhangRen\YunXin\Api\ChatRoom;
+use LaoZhangRen\YunXin\Api\User;
 
 /**
  * 入口类

@@ -1,11 +1,11 @@
 <?php
-namespace Pinkong\YunXin\Api;
+namespace LaoZhangRen\YunXin\Api;
 
 
 use GuzzleHttp\Client;
-use Pinkong\YunXin\Exception\YunXinBusinessException;
-use Pinkong\YunXin\Exception\YunXinInnerException;
-use Pinkong\YunXin\Exception\YunXinNetworkException;
+use LaoZhangRen\YunXin\Exception\YunXinBusinessException;
+use LaoZhangRen\YunXin\Exception\YunXinInnerException;
+use LaoZhangRen\YunXin\Exception\YunXinNetworkException;
 
 /**
  * User: salamander
