@@ -1,7 +1,8 @@
 # neteasy-yunxin
 
 ---
-[网易云信](https://www.163yun.com/help/documents/18132200658681856) 服务端sdk for Laravel6 / Lumen. based on [laozhangren/neteasy-yunxin](https://github.com/PINKONG/neteasy-yunxin).
+<<<<<<< HEAD
+[网易云信](https://www.163yun.com/help/documents/18132200658681856) 服务端sdk for Laravel6. based on [laozhangren/neteasy-yunxin](https://github.com/PINKONG/neteasy-yunxin).
 在此包基础上修复了一些小东西，仅在laravel6中测试可用
 
 ## Installation
