@@ -9,7 +9,7 @@ namespace Pinkong\YunXin\Api;
 
 
 use function GuzzleHttp\Psr7\str;
-use YunXinHelper\Exception\YunXinArgExcetption;
+use Pinkong\YunXin\Exception\YunXinArgExcetption;
 
 class ChatRoom extends Base
 {
