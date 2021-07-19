@@ -5,6 +5,7 @@ namespace LaoZhangRen\YunXin;
 use LaoZhangRen\YunXin\Api\Chat;
 use LaoZhangRen\YunXin\Api\ChatRoom;
 use LaoZhangRen\YunXin\Api\User;
+use LaoZhangRen\YunXin\Api\Friend;
 
 /**
  * 入口类
@@ -67,6 +68,18 @@ class Entrance {
         if (!array_key_exists($key, $this->instances)) {
             $chatRoom = new ChatRoom($this->appKey, $this->appSecrt);
             $this->instances[$key] = $chatRoom;
+        }
+        return $this->instances[$key];
+    }
+
+    /**
+     * @return Friend
+     */
+    public function friend() {
+        $key = 'Friend';
+        if (!array_key_exists($key, $this->instances)) {
+            $friend = new Friend($this->appKey, $this->appSecrt);
+            $this->instances[$key] = $friend;
         }
         return $this->instances[$key];
     }
