@@ -143,7 +143,7 @@ class ChatRoom extends Base
 
         $res = $this->sendRequest('chatroom/getBatch.action', [
             'roomids' => json_encode($roomIds),
-            'needOnlineUserCount' => $needOnlineUserCount,
+            'needOnlineUserCount' => $needOnlineUserCount ? 'true' : 'fasle'
         ]);
         return $res;
     }
