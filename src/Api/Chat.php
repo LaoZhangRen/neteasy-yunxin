@@ -85,6 +85,7 @@ class Chat extends Base
             'to' => $accidTo,
             'type' => $type,
             'body' => $body,
+            'msgDesc' => '',
             'antispam' => $antispam,
             'antispamCustom' => $antispamCustom,
             'option' => $option,
