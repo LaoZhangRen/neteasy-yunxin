@@ -85,12 +85,11 @@ class Chat extends Base
             'to' => $accidTo,
             'type' => $type,
             'body' => $body,
-            'msgDesc' => '',
-            'antispam' => $antispam,
+            // 'antispam' => false,
             'antispamCustom' => $antispamCustom,
             'option' => $option,
             'pushcontent' => $pushContent,
-            'payload' => json_encode($payload),
+            // 'payload' => json_encode($payload),
             'ext' => $ext,
             'forcepushlist' => json_encode($forcePushList),
             'forcepushcontent' => $forcePushContent,
@@ -98,7 +97,7 @@ class Chat extends Base
             'bid' => $bid,
             'useYidun' => $useYidun,
             'markRead' => $markRead,
-            'checkFriend' => $checkFriend,
+            // 'checkFriend' => false,
         ]);
         return $res;
     }
